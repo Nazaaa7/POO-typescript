@@ -8,7 +8,7 @@ Que una clase sea abstracta significa que no se puede usar para crear objetos di
 4. ¿Por qué conviene usar getters y setters para el encapsulamiento?
 **Conviene usar getters y setters para el encapsulamiento  porque permiten controlar el acceso y la modificación de los datos internos de una clase, aplicando validaciones, manteniendo la integridad de los datos y facilitando cambios en la implementación sin afectar la interfaz pública**
 5. Ejemplificar cómo tipar:
-a. Una función con parámetros obligatorios y opcionales.
+*a. Una función con parámetros obligatorios y opcionales.*
 function crearPerfil(nombre: string, apellido: string, edad?: number): string {
   if (edad) {
     return `Perfil de ${nombre} ${apellido}, de ${edad} años.`;
@@ -16,7 +16,7 @@ function crearPerfil(nombre: string, apellido: string, edad?: number): string {
   return `Perfil de ${nombre} ${apellido}.`;
 } 
  en este caso, el parametro de la edad es opcional, y el nombre y apellido son obligatorios 
-b. Una función que devuelve una Promise.
+*b. Una función que devuelve una Promise.*
 
 // La función `obtenerDatos` devuelve una Promise que se resolverá con un string.
 function obtenerDatos(): Promise<string> {
